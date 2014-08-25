@@ -1,6 +1,6 @@
 # Ify
 
-A vowel aware ifyfier of dubious quality.
+Ify is a vowel aware ifyfier of dubious quality.  Use it whenever you have an urgent need to turn a noun into a verb (before using it as a noun).  Or need something pointless to demonstrate how gems are made.
 
 ## Installation
 
@@ -18,8 +18,26 @@ Or install it yourself as:
 
 ## Usage
 
+Ify will ifyify a string
+
 		"string".ify
 		# => stingify
+
+It's aware of trailing vowels and white spaces
+
+		"awesome".ify
+		# => "awesomify"
+
+		"spot ".ify
+		# => "spotify"
+
+Yet it still plays well with small animals
+
+		"bee".ify
+		# => beeify
+
+		"fruit fly".ify
+		# => "fruit flyify"
 
 ## Contributing
 
@@ -28,3 +46,7 @@ Or install it yourself as:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## WTF
+
+Ify was inspired by this [equally pointless](https://github.com/KoryNunn/ify) (yet not nearly as well tested) effort.

@@ -9,4 +9,8 @@ describe "Ify" do
 	it "is vowel aware" do
 		"awesome".ify.must_equal "awesomify"
 	end
+
+	it "ignores trailing whitespace" do
+		"spot ".ify.must_equal "spotify"
+	end
 end
