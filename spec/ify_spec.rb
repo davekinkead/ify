@@ -13,4 +13,9 @@ describe "Ify" do
 	it "ignores trailing whitespace" do
 		"spot ".ify.must_equal "spotify"
 	end
+
+	it "plays well with small animals" do
+		"bee".ify.must_equal "beeify"
+		"fruit fly".ify.must_equal "fruit flyify"
+	end
 end
